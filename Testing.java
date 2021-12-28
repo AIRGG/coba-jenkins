@@ -17,6 +17,11 @@ public class Testing {
         // express
         kereta.hitung(1, true);
         // ekonomi
-//        kereta.hitung(2, true);
+        kereta.hitung(2, true);
+        
+        // beda orang
+        orang = 7;
+        kereta = new Kereta(orang);
+        kereta.hitung(1, true);
     }
 }
