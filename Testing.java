@@ -17,6 +17,6 @@ public class Testing {
         // express
         kereta.hitung(1, true);
         // ekonomi
-        kereta.hitung(2, true);
+//        kereta.hitung(2, true);
     }
 }
