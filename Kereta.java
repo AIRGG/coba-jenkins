@@ -19,14 +19,21 @@ public class Kereta {
     public Kereta (Integer orang) {
         this.orang = orang;
     }
-    
     public void hitung () {
-//        System.out.println("Harga Tiket Kereta: "+ (harga * orang));
         System.out.println("-- Pilih Kereta --");
         System.out.println("1. Express");
         System.out.println("2. Ekonomi");
         Scanner scan = new Scanner(System.in);
         int inp = scan.nextInt();
+        hitung(inp, false);
+    }
+    public void hitung (int inp, Boolean fortest) {
+//        System.out.println("Harga Tiket Kereta: "+ (harga * orang));
+        if (fortest) {
+            System.out.println("-- Pilih Kereta --");
+            System.out.println("1. Express");
+            System.out.println("2. Ekonomi");
+        }
         switch (inp) {
             case 1:
                 tikettype = "Express";
