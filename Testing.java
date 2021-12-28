@@ -23,5 +23,9 @@ public class Testing {
         orang = 7;
         kereta = new Kereta(orang);
         kereta.hitung(1, true);
+        
+        orang = 9;
+        kereta = new Kereta(orang);
+        kereta.hitung(2, true);
     }
 }
