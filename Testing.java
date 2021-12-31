@@ -29,5 +29,6 @@ public class Testing {
         kereta.hitung(2, true);
 
 	System.out.println("Code asing");
+	System.out.println("Awas typo");
     }
 }
