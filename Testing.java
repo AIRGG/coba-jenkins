@@ -28,6 +28,6 @@ public class Testing {
         kereta = new Kereta(orang);
         kereta.hitung(2, true);
 
-	System.out.println("Humam")
+	System.out.println("Humam");
     }
 }
