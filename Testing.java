@@ -27,5 +27,7 @@ public class Testing {
         orang = 9;
         kereta = new Kereta(orang);
         kereta.hitung(2, true);
+
+	System.out.println("Humam")
     }
 }
